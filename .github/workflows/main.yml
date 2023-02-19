@@ -24,3 +24,4 @@ jobs:
           REMOTE_HOST: "ec2-15-206-98-229.ap-south-1.compute.amazonaws.com"
           REMOTE_USER: "adminaz1"
           TARGET: "/var/www/html/test-git/"
+          EXCLUDE: "index.php"
