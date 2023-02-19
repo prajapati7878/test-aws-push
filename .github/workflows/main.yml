@@ -18,7 +18,7 @@ jobs:
       - name: Deploy to Server 1
         uses: easingthemes/ssh-deploy@main
         env:
-          SSH_PRIVATE_KEY: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCa7ZNHcZCLpELJkmWIzssHgw7OVCcuqgd5qTsWHB21Xbgn1GoMPf9xFpUR0ssDe73UB9XSieqi7jscqq65wZZ10CtN4jtvIN5v1EzqXgL18stum69hKAUEQvV9U7BLl9vxdtXPoA+IdilHQ+YmQuxwJyfwB6O0+tyz1vA1PzEUonsDOE8a15kpFJrdDO7xTGQ35jTlSAnhebpCJSon/k/GxyfAjGhHUTDGCOx8rqXHwXju0bj19cY52DcaoaCG8iybQ27qg+JKf3RrabQ/Vu36Du3pNGbhWf1uJVznZXONbMLVqfTT1enYfpoOXEiIDUKMyooVw/2p/NCNCUclFw5T adminaz1@ip-10-12-0-238.ap-south-1.compute.internal"
+          SSH_PRIVATE_KEY: "AAAAB3NzaC1yc2EAAAADAQABAAABAQCa7ZNHcZCLpELJkmWIzssHgw7OVCcuqgd5qTsWHB21Xbgn1GoMPf9xFpUR0ssDe73UB9XSieqi7jscqq65wZZ10CtN4jtvIN5v1EzqXgL18stum69hKAUEQvV9U7BLl9vxdtXPoA+IdilHQ+YmQuxwJyfwB6O0+tyz1vA1PzEUonsDOE8a15kpFJrdDO7xTGQ35jTlSAnhebpCJSon/k/GxyfAjGhHUTDGCOx8rqXHwXju0bj19cY52DcaoaCG8iybQ27qg+JKf3RrabQ/Vu36Du3pNGbhWf1uJVznZXONbMLVqfTT1enYfpoOXEiIDUKMyooVw/2p/NCNCUclFw5T adminaz1@ip-10-12-0-238.ap-south-1.compute.internal"
           REMOTE_HOST: "ec2-15-206-98-229.ap-south-1.compute.amazonaws.com"
           REMOTE_USER: "adminaz1"
           TARGET: "/var/www/html/test-git/"
